@@ -9,7 +9,15 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@faker-js/faker": "^10.4.0",
     "@playwright/test": "^1.60.0",
-    "@types/node": "^25.8.0"
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^25.9.2",
+    "ajv": "^8.20.0",
+    "ajv-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "luxon": "^3.7.2"
   }
 }
